@@ -1,0 +1,4 @@
+start(int delay_secs);
+createCache(int size_mb);
+downloadFile(float max_kbps);
+rotate(float degrees_cw);
