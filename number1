@@ -1,0 +1,7 @@
+public void onClick(View v) {
+	Intent intent = new Intent(PassingDataDemoActivity.this, Privet.class);
+	
+	intent.putExtra("username", userNameEditText.getText().toString()); // в ключ username пихаем текст из текстового поля
+	intent.putExtra("gift", descriptionEditText.getText().toString());  // в ключ gift пихаем текст из текстового поля
+    startActivity(intent);
+}
